@@ -1,3 +1,6 @@
+#ifndef SPL06_H_
+#define SPL06_H_
+
 #include "Arduino.h"
 
 class SPL06 {
@@ -40,4 +43,6 @@ class SPL06 {
         virtual double get_pressure_scale_factor();
         virtual double get_pressure();
 };
+
+#endif /* SPL06_H_ */
 
