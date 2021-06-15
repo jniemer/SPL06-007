@@ -3,7 +3,7 @@
 
 uint8_t SPL_CHIP_ADDRESS = 0x76;
 
-void SPL06::init()
+void SPL06::SPL_init()
 {
 	i2c_eeprom_write_uint8_t(SPL_CHIP_ADDRESS, 0X06, 0x03);	// Pressure 8x oversampling
 

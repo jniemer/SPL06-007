@@ -26,7 +26,7 @@ class SPL06 {
         static void i2c_eeprom_write_uint8_t(  uint8_t deviceaddress, uint8_t eeaddress, uint8_t data );
         static uint8_t i2c_eeprom_read_uint8_t(  uint8_t deviceaddress, uint8_t eeaddress );
     public:
-        virtual void init();
+        virtual void SPL_init();
 
         virtual int32_t get_traw();
         virtual double get_traw_sc();
